@@ -92,7 +92,12 @@ body{
 .header img{
     width: 40px;
     border-radius: 50%;
-    border: 2px solid hsl(0, 0%, 100%);
+}
+.card4 img{
+    border: 2px solid hsl(263, 55%, 52%);
+}
+.picture{
+    border: 2px solid hsl(210, 46%, 95%);
 }
 .card1, .card2, .card4{
     color: hsl(0, 0%, 100%);
@@ -106,4 +111,60 @@ body{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+@media all and (max-width: 375px) {
+    .container{
+        margin: 8% 5% 5% 5%;
+    }
+    .four-card, .one-card{
+        display: block;
+        width: 100%;
+    } 
+    .two-card-2{
+        margin-top: 0%;
+    }
+    .card1,.card2{
+        display: block;
+        margin-bottom: 8%;
+        width: 93%;
+        padding: 3% 3% 3% 4%;
+    }
+    .card1{
+        margin-right: 0%;
+    }
+    .card3,.card4{
+        display: block;
+        width:93%;
+        margin-bottom: 8%;
+        padding: 3% 3% 3% 4%;
+    }
+    .card3{
+        margin-right: 0%;
+    }
+    .one-card{
+        margin-left: 0%;
+        width: 90%;
+        padding: 8% 5% 3% 5%;
+    }
+    .one-card h2{
+        margin-right: 0%;
+    }
+    .main{
+        padding-top: 3%;
+        padding-left: 6%;
+        padding-right: 8%;
+    }
+    .header{
+        padding: 5% 8% 0% 5%;
+    }
+    .one-card p{
+        margin-top: 0%;
+    }
+    h2{
+        margin-right: 5%;
+    }
+    .quotation{
+        margin-left: 50%;
+        top: 6%;
+    }
 }
