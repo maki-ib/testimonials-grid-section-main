@@ -1,0 +1,109 @@
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed';
+    background-color: hsl(210, 46%, 95%);
+}
+.container{
+    margin: 8% 0% 5% 8%;
+}
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url("static/BarlowSemiCondensed-Regular.ttf");
+    weight:500 ,600;
+}
+.four-card, .one-card{
+    display: inline-block;
+    vertical-align: top;
+}
+.four-card{
+    width: 70%;
+}
+.two-card-2{
+    margin-top: 3%;
+}
+.one-card{
+    margin-left: -2%;
+    width: 15.5%;
+    padding: 3% 3% 1% 3%;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+.one-card p{
+    margin-top: 15%;
+}
+.card1,.card2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 3% 3% 3% 4%;
+    border-radius: 5px;
+}
+.card1{
+    width: 54%;
+    background-color:  hsl(263, 55%, 52%);
+    margin-right: 3%;
+}
+.quotation{
+    z-index: 0;
+    position: absolute;
+    margin-left: 23%;
+    top: 16.5%;
+}
+.content{
+    z-index: 1;
+    position: relative;
+}
+.card2{
+    width: 22%;
+    background-color: hsl(217, 19%, 35%);
+}
+.card3,.card4{
+    display: inline-block;
+    vertical-align: top;
+    padding: 3% 3% 3% 4%;
+    border-radius: 5px;
+}
+.card3{
+    background-color:  hsl(0, 0%, 100%);
+    width: 21%;
+    margin-right: 3%;
+}
+.card4{
+    width: 56%;
+    background-color: hsl(219, 29%, 14%);
+}
+.header img, .name{
+    display: inline-block;
+    vertical-align: top;
+}
+.name{
+    margin-top: -10px;
+    margin-left: 5%;
+}
+.name h3{
+    margin-bottom: 5px;
+}
+.name span{
+    opacity: 50%;
+}
+.text{
+    opacity: 70%;
+    line-height: 150%;
+}
+.header img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+.card1, .card2, .card4{
+    color: hsl(0, 0%, 100%);
+} 
+.card3, .one-card{
+    color: hsl(217, 19%, 35%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
